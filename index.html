@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abm - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js" defer></script>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul >
+                    <li ><a id="home"  onclick="changeColor(this)" href="#">Home</a></li>
+                    <li><a  onclick="changeColor(this)" href="#projects">Projects</a></li>
+                    <li><a onclick="changeColor(this)" href="#experience">Experience</a></li>
+                    <li><a onclick="changeColor(this)" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <img src="./assests/image.jpg" alt="Profile Picture">
+            <h1>Sharad Bhadait</h1>
+            <!-- <h2>Full-Stack Developer</h2> -->
+            <div class="cta-buttons">
+                <button>Get in Touch</button>
+                <button>Download CV</button>
+                <button>Linkedin</button>
+                <button>Github</button>
+            </div>
+            <p>I'm passionate about exploring and learning the latest in web development and cloud technologies. My expertise lies in full-stack web development, with a core stack of React, Next.js, Node.js, and MongoDB. I've recently expanded my skills to include cloud platforms (AWS, GCP, Azure) and containerization with Docker.</p>
+            <div class="experience-icons">
+                <img src="/api/placeholder/40/40" alt="JavaScript">
+                <img src="/api/placeholder/40/40" alt="Node.js">
+                <img src="/api/placeholder/40/40" alt="HTML5">
+                <img src="/api/placeholder/40/40" alt="CSS3">
+                <img src="/api/placeholder/40/40" alt="React">
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div id="project-title">
+                        <!-- <img width="100px" src="https://media.tenor.com/3nT-5pb890wAAAAi/sparkle.gif" alt="Logo">  -->
+
+                <h2>PROJECTS</h2>
+                        <img width="100px" src="https://media.tenor.com/QhRvvwpCdVoAAAAi/rocket.gif" alt="Logo"> 
+
+            </div>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="./assests/project-thumbnail-1.png" alt="HTML Tutorial">
+                    <div class="project-info">
+                        <h3>POWER OF HTML</h3>
+                        <p>HTML TUTORIAL</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./assests/project-thumbnail-2.png" alt="CSS Tutorial">
+                    <div class="project-info">
+                        <h3>UNLOCK CSS MAGIC</h3>
+                        <p>CSS TUTORIAL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h1>EXPERIENCE</h2>
+            <div class="experience-item">
+              <div>
+                  <h3><img src="/api/placeholder/30/30" alt="Google Logo"> 
+Full Stack Developer at Arohi software </h3>
+                <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
+                <p>June 2024 - Sept 2024</p>
+            </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <p>Made with ❤️ by sharad</p>
+            <div>
+                <img src="/api/placeholder/30/30" alt="Instagram">
+                <img src="/api/placeholder/30/30" alt="Twitter">
+                <img src="/api/placeholder/30/30" alt="YouTube">
+            </div>
+        </footer>
+    </div>
+    
+</body>
+
+
+
+</html>
