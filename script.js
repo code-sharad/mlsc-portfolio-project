@@ -2,7 +2,7 @@ const home = document.getElementById("home");
 home.classList.add("active");
 function changeColor(button) {
   // Remove 'active' class from all buttons
-  const buttons = document.querySelectorAll("li a");
+  const buttons = document.querySelectorAll("nav a");
   buttons.forEach((btn) => btn.classList.remove("active"));
 
   // Add 'active' class to the clicked button
@@ -99,28 +99,3 @@ gsap.from(".project-card",{
 })
 
 
-// gsap.from("#card1",{
-//   opacity:0,
-//   x:-90,
-//   duration:0.4,
-//   delay:0.3,
-//   // stagger:1,
-//   scrollTrigger:{
-//     trigger:".project-card",
-//     scroller:"body",
-//     start:"top 70%"
-//   }
-// })
-
-// gsap.from("#card2",{
-//   opacity:0,
-//   x:90,
-//   duration:0.4,
-//   delay:0.3,
-//   // stagger:0.1,
-//   scrollTrigger:{
-//     trigger:".project-card",
-//     scroller:"body",
-//     start:"top 70%"
-//   }
-// })
