@@ -201,6 +201,7 @@ nav ul li a {
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
+    text-align: left;
 }
 
 .experience-item h3 {
