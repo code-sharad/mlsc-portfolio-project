@@ -27,6 +27,8 @@ HTML (HyperText Markup Language) is the standard markup language used to create 
 - `<p>`: Paragraph of text.
 - `<a>`: Anchor tag for links.
 - `<img>`: Displays images.
+- `<nav>`: Defines a set of navigation links.
+- `<span>`: Used to group inline-elements in a document.
 
 ---
 
@@ -50,6 +52,7 @@ CSS (Cascading Style Sheets) is a language used to describe the presentation (lo
 - `padding`: Space inside an element.
 - `border`: Sets the border around an element.
 - `text-align`: Aligns the text (left, right, center).
+- `display: flex;`: Defines a flex container.
 
 ---
 
@@ -94,7 +97,17 @@ JavaScript is a programming language that allows you to create dynamic, interact
   <title>My First Web Page</title>
 </head>
 <body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
   <h1>Hello, World!</h1>
   <p>This is my first webpage.</p>
+  <span>This is a span element.</span>
+  <div style="display: flex;">
+    <div>Flex Item 1</div>
+    <div>Flex Item 2</div>
+  </div>
 </body>
 </html>
